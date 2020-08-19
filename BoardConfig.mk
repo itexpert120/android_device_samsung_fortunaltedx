@@ -1,10 +1,10 @@
 # Inherit from common
 include device/samsung/gprimelte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/fortunalteub
+LOCAL_PATH := device/samsung/fortunaltedx
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := fortunalteub,fortunalte,gprimelteub
+TARGET_OTA_ASSERT_DEVICE := fortunaltedx,fortunalte,gprimelteub
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_sea_defconfig

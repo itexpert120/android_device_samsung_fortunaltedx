@@ -1,16 +1,16 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/fortunalteub/fortunalteub-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/fortunaltedx/fortunaltedx-vendor.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/fortunalteub
+LOCAL_PATH := device/samsung/fortunaltedx
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/fortunalteub/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/fortunaltedx/overlay
 
 # NFC configs
 PRODUCT_COPY_FILES += \
